@@ -9,6 +9,8 @@ resources:
 # Final-name releases are published by the security-gated main workflow.
 # Deployment remains blocked until its generated PR supplies scanned SHA tags.
 images:
+- name: ghcr.io/oldinroplayer/remote
+  newTag: sha-d18ab8d7f4016f59fd674f8afdd3aff6943e599e
 - name: ghcr.io/raiken-mf/rathena
   newTag: sha-b893f028b321da2e2e62d6f0cd8723ac9299a431
 - name: ghcr.io/raiken-mf/remote
